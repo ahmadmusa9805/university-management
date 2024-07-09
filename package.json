@@ -15,9 +15,7 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "src/**/*.ts": [
-      "npm run lint:format"
-    ]
+    "src/**/*.ts": "npm run lint:format"
   },
   "keywords": [],
   "author": "",
