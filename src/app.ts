@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 // app.use(cookieParser());
 
 app.get("/", (req: any, res: any) => {
-  let = 10;
+  let = "10";
   res.send("Hello World!");
 });
 
